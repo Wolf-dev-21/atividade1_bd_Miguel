@@ -29,7 +29,7 @@ values ('Livro 9','Fantasia',20.00);
 insert into tbl_produto (Nome, descricao, preco)
 values ('Livro 10','Fantasia',40.00);
 
-select * from tbl_produto;
+select nome as produto, descricao as detalhes from tbl_produto;
 
 
 #Insert pedido
